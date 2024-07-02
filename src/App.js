@@ -13,6 +13,7 @@ import React from 'react'
 // import Es6Array from './component/Es6Array'
 // import Components from './Components'
 import Event from './Event/Event'
+import LocalStorage from './data table/LocalStorage'
 
 
 export default function App() {
@@ -30,7 +31,8 @@ export default function App() {
       <SideBar />
       <Footer />
       <Content /> */}
-      <Event />
+      {/* <Event /> */}
+      <LocalStorage/>
 
 
     </>
